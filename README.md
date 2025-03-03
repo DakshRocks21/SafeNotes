@@ -20,7 +20,7 @@ Visit the site at http://localhost:8080/
 Run the following commands to execute unit tests for this app:
 
 ```bash
-docker build . -t safenotes-test -f Dockerfile.sadguard
+docker build . -t safenotes-test -f .sadguard/Dockerfile
 docker run safenotes-test
 ```
 
