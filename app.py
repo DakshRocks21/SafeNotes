@@ -5,7 +5,7 @@ import uuid
 app = Flask(__name__)
 NOTES_DIR = "notes"
 
-#hi    
+#hi         
 
 # Ensure notes directory exists
 os.makedirs(NOTES_DIR, exist_ok=True)
