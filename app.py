@@ -2,10 +2,10 @@ from flask import Flask, jsonify, request, render_template
 import os
 import uuid
 
-
 app = Flask(__name__)
 NOTES_DIR = "notes"
 
+# hi
 # Ensure notes directory exists
 os.makedirs(NOTES_DIR, exist_ok=True)
 
