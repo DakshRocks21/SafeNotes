@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request, render_template
 import os
 import uuid
 
+
 app = Flask(__name__)
 NOTES_DIR = "notes"
 
